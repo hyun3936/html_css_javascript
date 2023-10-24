@@ -76,6 +76,29 @@ article p{
 
 }
 
+article img{
+    border-radius: 50%;
+}
+
+footer{
+    background-color:gainsboro;
+    color: brown;
+}
+
+footer > div {
+    margin: 10px;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer p1{
+    text-align: center;
+}
 
 
+.footerp2{
+    font-size: small;
+}
 

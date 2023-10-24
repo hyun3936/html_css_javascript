@@ -1,0 +1,86 @@
+* {
+    margin:5px;
+    padding:3px;
+}
+
+main{
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section,article{
+    width: 80%;
+    background-color: white;
+}
+
+article{
+    margin-top: 20px;
+}
+
+
+h1{
+    padding:20px;
+}
+
+h1, ol, ul {
+    border: 1px solid black;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+ol > li{
+    padding: 5px;
+    margin-left: 30px;
+}
+
+ol > li:hover{
+    background-color: gainsboro;
+}
+
+ul > li > a{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:blue ;
+    color: white;
+}
+
+
+li{
+    border: 1px dotted gray;
+    
+}
+
+
+
+section > h1 {
+    color :seagreen;
+}
+
+
+body{
+    background-color: snow;
+}
+
+article > h1 {          
+    color :seagreen;
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+ul >li >a:hover {
+    background-color:white ;
+    color: blue;
+
+}
