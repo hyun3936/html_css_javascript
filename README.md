@@ -1,10 +1,12 @@
 # HTML
 - [x] 기본태그
 - [x] 시맨틱태그
+# VS Commit
+tag 적고 commit & push
 ## 기본태그
 + 블록요소 : <div>
 ```
-<div>, <h1>~<h2>,<ul>,<li>,<p>
+<div>, <h1~h6>,<ul>,<li>,<p>
 ```
 ## 기본태그
 + 인라인요소 : 
