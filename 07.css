@@ -1,0 +1,17 @@
+#btDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cmsg{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: blueviolet;
+    font-weight: bold;
+    width: 50%;
+    height: 80px;
+    text-align: center;
+}
+

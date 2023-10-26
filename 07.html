@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' text='text/css' href="./container.css">
+    <link rel='stylesheet' text='text/css' href="./07.css">
+    <title>자바스크립트</title>
+    <script>
+        // function hello1(n){    /*매개변수 받는*/
+        //     alert("Hello!! 버튼" + n);   /* alert : 창 띄우는거*/ 
+        // }
+        // const hello = (n) => {
+        //     alert("Hello!! 버튼" + n);
+        // }
+
+        const hello = (n) => {
+            // alert("Hello!! 버튼" + n); /*hello에 익명함수 할당, 함수니까 매개변수 n을 받을 수 있다.*/
+            // document.getElementById('msg').innerHTML = "<h2> Hello!! 버튼" + n + "</h2>" /*id가 msg인것을 찾음*/
+            document.querySelector('.cmsg').innerHTML =  "<h2> Hello!! 버튼" + n + "</h2>"
+        };  
+    </script>
+</head>
+
+<body> 
+    <header>
+        <h1>자바스크립트</h1>
+      
+        <nav>
+            <ul>
+                <li><a href=https://www.w3schools.com/html/default.asp>w3schools HTML</a></li>
+                <li><a href=https://www.w3schools.com/js/default.asp>w3schools JS</a></li>
+            </ul>
+        </nav>
+    </header>
+  
+    <main>
+        <h1>자바스크립트 01</h1>
+        <div id="'btDiv">
+            <button onclick='hello(1)'>버튼1을 눌러주세요.</button>  
+            <button onclick='hello(2)'>버튼2를 눌러주세요.</button> 
+        </div>
+        <div id = 'cmsg'>
+
+        </div>  
+    </main>
+</body> 
+
+</html>
+
+
