@@ -1,17 +1,19 @@
-#btDiv{
+#divBtn{  /*div 버튼*/
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#cmsg{
+#msg{   /* 메세지 */
     display: flex;
     justify-content: center;
-    color: white;
+    align-items: center;
+    text-align: center;
+
+    color: black;
     background-color: blueviolet;
     font-weight: bold;
     width: 50%;
     height: 80px;
-    text-align: center;
 }
 
