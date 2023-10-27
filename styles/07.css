@@ -1,0 +1,38 @@
+main{
+    margin-bottom: 50px;
+}
+
+
+section{
+    margin-bottom: 10px;
+    width: 80%;
+    padding: 20px;
+    border: 1px solid gainsboro;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* id 찾을때는 # , 클래스 찾을때는 .  */
+
+.btC {  /*div 버튼*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cmsg {   /* 메세지 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: black;
+    background-color: blueviolet;
+    font-weight: bold;
+    width: 50%;
+    height: 80px;
+}
+
