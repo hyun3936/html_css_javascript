@@ -10,9 +10,11 @@ const handleBtClick = (comImg, meImg, me, msg) => {
     meImg.setAttribute("src", `./images/04_주사위/${me}.png`);
 
     // 3. com과 me의 주사위 결과를 비교해서 상황에 맞는 답변 출력
-    if (com === me) msg.innerHTML = '비김';
-    else if (com > me) msg.innerHTML = '패';
-    else msg.innerHTML = '승';
+    // if (com === me) msg.innerHTML = '비김';
+    // else if (com > me) msg.innerHTML = '패';
+    // else msg.innerHTML = '승';
+    if (com === me) msg.innerHTML = '맞춤';
+        else msg.innerHTML = '틀림';
 }
 
 
@@ -31,10 +33,10 @@ document.addEventListener("DOMContentLoaded", () => {  // 돔이 완성되야 �
 
     // console.log(comImg)
     // console.log(meImg)
-    console.log(bts)
+    // console.log(bts)
     // console.log(msg)
 
-    console.log(bts)
+    // console.log(bts)
     // const bt1 = documet.querySelector("#bt1");
     // bt1.addEventListener("click", ()=>{
     //     console.log(bt1.getAttirbute("id"))
@@ -78,14 +80,4 @@ document.addEventListener("DOMContentLoaded", () => {  // 돔이 완성되야 �
             console.log(bt.getAttribute("id").slice(-1)); // 버튼이 눌러지면 그 버튼의 id값이 출력    // 문자열을 잘 가지고 놀아야한다.
         });
     }
-
-
-    
-
-  
-
-
-
-
 });
-
