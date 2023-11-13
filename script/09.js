@@ -84,6 +84,4 @@ const divShow = (d1, d2, isRandom) => {
   
     });
   
-  
-  
   });

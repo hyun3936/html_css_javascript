@@ -1,0 +1,36 @@
+form{
+    width: 100%;
+}
+
+.fdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1{
+    width: 50%;  
+    text-align: center;
+    margin: 10px;
+}
+
+.div2{
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.bt11{
+    width: 100%;
+}
+
+#txt2{
+    background-color: antiquewhite;
+}
+
+
+input[type=text]{
+    width: 80%;
+    height: 40px;
+}
