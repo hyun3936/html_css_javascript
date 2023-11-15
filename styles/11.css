@@ -20,8 +20,14 @@ form{
     margin: 10px;
 }
 
+.div12{
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+}
 
-.bt11{
+
+.bt11 .bt12 .bt13{
     width: 100%;
 }
 
@@ -33,4 +39,14 @@ form{
 input[type=text]{
     width: 80%;
     height: 40px;
+    text-align: center;
+}
+
+#txt1{
+    width: 100%;
+    font-size: x-large;
+}
+
+#d1{
+    width: 100%;
 }
