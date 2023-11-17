@@ -3,6 +3,8 @@ document.addEventListener("DOMContentLoaded", ()=>{
       const bt11 = document.querySelectorAll(".bt11");
     //삭제 버튼
       const bt12 = document.querySelectorAll(".bt12");
+        //변경 버튼
+      const bt13 = document.querySelectorAll(".bt13");
 
       
       const txt1 = document.querySelector("#txt1")
@@ -92,7 +94,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
             
 
             let key = bt.innerHTML;
-            key = key.split('+')
+            key = key.split('→')
    //         console.log(emoji[key[0]], emoji[key[1]]);
 
             // arr = arr.map((item)=>{

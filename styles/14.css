@@ -1,0 +1,54 @@
+#d1, #d2 {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+
+.sp{
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+}
+
+
+#spp{
+    color: black;
+    font-size: xx-large;
+}
+
+
+#sp0{
+    background-color: #ff9900;  /*w3school - color picker에서 색 골라옴 */
+}
+
+#sp1{
+    background-color: #0066ff;
+}
+
+#sp2{
+    background-color:#ff0000;
+}
+
+#sp3{
+    background-color: #a6a6a6;
+}
+
+#sp4{
+    background-color:  #00ff00;
+}
+
+/* #sp5{
+    background-color: #ffff00;
+}
+
+#sp6{
+    background-color: #6600cc;
+} */
