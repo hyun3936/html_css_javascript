@@ -31,3 +31,14 @@
     width: 60px;
     height: 60px;
   }
+
+  .div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .fdiv{
+  flex-direction: column;
+  }
