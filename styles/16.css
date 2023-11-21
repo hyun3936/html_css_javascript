@@ -1,0 +1,96 @@
+form {
+    width: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .fdiv {
+    width: 100%;
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  table, th, td {
+    border: 1px solid gainsboro;
+    border-collapse: collapse;
+  }
+  
+  th, tr{
+    height: 30px;
+  }
+
+  th {
+    background-color: green;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: greenyellow;
+  }
+  
+  .sp1{
+    text-align: center;
+  }
+
+  .sp2{
+    text-align: left;
+  }
+
+  .sp3{
+    text-align: right;
+  }
+
+
+  input[type=date] {
+    display: inline-flex;
+    height: 40px;
+    width: 200px;
+    font-size: large;
+    font-weight: bold;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  #d0{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  fieldset > legend{
+    text-align: center;
+  }
+
+  fieldset{
+    background-color: skyblue; 
+    width: 30%;
+  }
+
+  .inDiv, fieldset {
+    width: 45%;
+    margin: 10px;
+  }
+
+  #r1,#r2,#r3{
+    text-align: center;
+  }
+
+  .inDiv2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 15%;
+  }
+
+  #bt{
+    display: inline-flex;
+    margin-top: 15px;
+    width: 80%;
+  }
